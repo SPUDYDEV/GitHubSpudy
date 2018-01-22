@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.spudydev.spudy.activity.ChatActivity"
+    tools:showIn="@layout/app_bar_chat">
+
+    <TextView
+        android:id="@+id/chatNomeDaTurma"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="NOME DA TURMA"
+        android:gravity="center"
+        android:background="@color/rosaSpudy"/>
+
+    <RelativeLayout
+        android:id="@+id/BotoesChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chatNomeDaTurma"
+        android:gravity="center"
+        android:background="@color/azulFundo">
+
+        <Button
+            android:id="@+id/chatUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:background="@color/azulFundo"
+            android:text="Usuários"
+            android:textColor="@color/cinzaClaro"/>
+
+        <Button
+            android:id="@+id/chatFaltas"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_toEndOf="@id/chatUsuario"
+            android:background="@color/azulFundo"
+            android:text="Faltas"
+            android:textColor="@color/cinzaClaro"/>
+        <Button
+            android:id="@+id/chatNotas"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_toEndOf="@id/chatFaltas"
+            android:background="@color/azulFundo"
+            android:text="Notas"
+            android:textColor="@color/cinzaClaro"/>
+        <Button
+            android:id="@+id/chatMateriais"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_toEndOf="@id/chatNotas"
+            android:background="@color/azulFundo"
+            android:text="Materiais"
+            android:textColor="@color/cinzaClaro"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/chatListView"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/BotoesChat"
+        android:layout_above="@id/mensagensDoChat">
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/mensagensDoChat"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/edtChatBarraDeMensagens"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/border_chat"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@id/btnEnviar"/>
+
+        <EditText
+            android:id="@+id/btnEnviar"
+            android:drawableLeft="@drawable/ic_enviar"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border_chat"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

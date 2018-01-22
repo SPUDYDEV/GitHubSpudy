@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Lucas Marsol\Desktop\MPOO\SpudyProject-master\SpudyProject-master\App\spudydir\app\app.iml" filepath="C:\Users\Lucas Marsol\Desktop\MPOO\SpudyProject-master\SpudyProject-master\App\spudydir\app\app.iml" />
+      <module fileurl="file://C:\Users\ibyte\Documents\GitHub\spudydirBeta\app\app.iml" filepath="C:\Users\ibyte\Documents\GitHub\spudydirBeta\app\app.iml" />
+      <module fileurl="file://C:\Users\Lucas Marsol\Desktop\MPOO\SpudyProject-master\SpudyProject-master\App\spudydir\spudydir.iml" filepath="C:\Users\Lucas Marsol\Desktop\MPOO\SpudyProject-master\SpudyProject-master\App\spudydir\spudydir.iml" />
+      <module fileurl="file://C:\Users\ibyte\Documents\GitHub\spudydirBeta\spudydir.iml" filepath="C:\Users\ibyte\Documents\GitHub\spudydirBeta\spudydir.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spudydirBeta.iml" filepath="$PROJECT_DIR$/spudydirBeta.iml" />
+    </modules>
+  </component>
+</project>
